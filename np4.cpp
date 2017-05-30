@@ -18,11 +18,14 @@ int d3=sqrt((x3-x1)*(x3-x1)+(y3-y1)*(y3-y1));
 cout<<"The sides of the triangle are" <<d1<<" "<<d2<<" "<<d3<<endl;
 if(((x1==x2)&&(y1==y2))||((x2==x3)&&(y2==y3))||((x3==x1)&&(y3==y1)))
 cout<<"It is not a TRIANGLE but a STRAIGHT LINE." <<endl;
+else
+{
 if((d1==d2)&&(d2==d3))
 cout<<"The triangle is EQUILATERAL."<<endl;
 if((d1==d2)||(d2==d3)||(d3==d1))
 cout<<"The triangle is ISOCELES."<<endl;
 if((d1!=d2)&&(d2!=d3)&&(d3!=d1))
 cout<<"The triangle is SCALENE."<<endl;
+}
 return 0;
 }
