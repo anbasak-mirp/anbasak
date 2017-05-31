@@ -17,9 +17,9 @@ if(b*b-4*a*c==0)
 cout <<"Roots are real and equal"<<endl;
 if(b*b-4*a*c<0)
 cout <<"Roots are not real"<<endl;
-x=((-b)+sqrt(b*b-4*a*c))/2*a;
+x=((-b)+sqrt(b*b-4*a*c))/(2*a);
 cout <<"Root="<<x<<endl;
-x=((-b)-sqrt(b*b-4*a*c))/2*a;
+x=((-b)-sqrt(b*b-4*a*c))/(2*a);
 cout <<"Root="<<x<<endl;
 return 0;
 }
