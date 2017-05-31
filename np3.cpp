@@ -5,11 +5,11 @@ int main()
 {
 int a,b,c;int x=0;
 cout <<"Enter the constants"<<endl;
-cout <<"1st constant"<<endl;
+cout <<"1st coefficient"<<endl;
 cin >>a;
-cout <<"2nd constant"<<endl;
+cout <<"2nd coefficient"<<endl;
 cin >>b;
-cout <<"3rd constant"<<endl;
+cout <<"3rd coefficient"<<endl;
 cin >>c;
 if(b*b-4*a*c>0)
 cout <<"Roots are real and distinct"<<endl;
